@@ -34,7 +34,12 @@ async function removeSlashCommands(type) {
 }
 
 client.once("ready", async () => {
-  await removeSlashCommands("global");
+  const arg = process.argv[2];
+  if (arg) {
+    await removeSlashCommands(arg.toLowerCase());
+  } else {
+    console.log("Please provide a type as an argument (guild/global) to delete all slash commands.");
+  }
   client.destroy();
 });
 

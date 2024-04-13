@@ -32,8 +32,13 @@ cp example_config.json config.json
 
 5. Start the project:
 ```sh
-npm start
+npm run start <Argument>
 ```
+
+### Note:
+- The Arguments are
+  - global = Deletes all global commands
+  - guild = Deletes all guild commands
 
 
 # Support
