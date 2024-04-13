@@ -1,0 +1,28 @@
+{
+  "name": "deletingcommands",
+  "version": "1.0.0",
+  "description": "DiscordBot-Deletingcommands",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LonoxX/DiscordBot-Deletingcommands.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LonoxX/DiscordBot-Deletingcommands/issues"
+  },
+  "homepage": "https://pnnet.dev",
+  "scripts": {
+    "start": "node index.js",
+    "format": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "LonoxX",
+  "license": "MIT",
+  "dependencies": {
+    "discord-logs": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5"
+  }
+}
